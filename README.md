@@ -43,7 +43,7 @@ Que hace este script?
 9. Espera un tiempo determinado (`$waittime`) para la conexión.
 10. Si la conexión se realizó correctamente, muestra en la consola el mensaje "Puerto abierto: " y el número del puerto en color verde.
 
-**El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1,ps1](Scripting en Powershell/scan_portv1.ps1)**
+**El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1,ps1](../scan_portv1.ps1)**
 
 ### scan_alive1.ps
 Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
@@ -64,7 +64,7 @@ Que hace este script?
 
 En resumen, este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
 
-**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](Scripting en Powershell/scan_alivev1.ps1)**
+**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](../scan_alivev1.ps1)**
 
 ## Scripting en Bash
 
