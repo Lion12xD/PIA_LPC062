@@ -25,7 +25,7 @@ Te invitamos a sumergirte en este repositorio y aprovechar al máximo las explic
 PowerShell scripting es una forma eficiente y poderosa de automatizar tareas en entornos de Windows. Con PowerShell, puedes escribir secuencias de comandos (scripts) que ejecutan una serie de instrucciones para realizar acciones repetitivas o complejas de manera rápida y sencilla. Estos scripts te permiten administrar sistemas, configurar servidores, interactuar con servicios web y mucho más. Con su lenguaje intuitivo y su amplia gama de funciones integradas, PowerShell te brinda el poder de la automatización en tus manos, facilitando la administración y el control de tus entornos Windows.
 
 A continuacion se mostraran y explicaran de manera breve algunos scripts escritos en PowerShell para realizar diferentes acciones.
-#### scan_portv1.ps
+### scan_portv1.ps
 Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el rango de la subred, solicita una dirección IP y realiza un escaneo de puertos para encontrar aquellos que están abiertos.
 
 ![imagen1](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9)
@@ -44,10 +44,11 @@ El siguiente script de PowerShell realiza las siguientes tareas:
 8. Crea un objeto de cliente TCP (TcpClient) y trata de conectarlo a la dirección IP y puerto correspondientes utilizando ConnectAsync.
 9. Espera un tiempo determinado ($waittime) para la conexión.
 10. Si la conexión se realizó correctamente, muestra en la consola el mensaje "Puerto abierto: " y el número del puerto en color verde.
+```
+### El Script scan_portv1.ps1 se enccuentra en este repositorio, para verlo puedes dar click en su nombre abajo:
 
-El Script scan_portv1.ps1 se enccuentra en este repositorio, para verlo puedes dar click en su nombre abajo:
 [scan_portv1,ps1](scan_portv1.ps1)
-
+```
 ## Scripting en Bash
 
 ## Webscraping
