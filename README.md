@@ -231,8 +231,29 @@ El script en Python realiza una solicitud GET a una página web y utiliza Beauti
 ***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Webscraping/scrape_quote.py)***
 
 ### scrap12.py
+este script realiza web scraping en un sitio web de empleos falsos, encuentra trabajos relacionados con Python y muestra información relevante de cada trabajo, como la empresa, la ubicación, el título y la URL de solicitud.
 
 ![imagen11](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/c7be0144-5736-46f9-9c27-402c8729d69d)
+
+¿Cómo funciona este script?
+
+1. Importa las bibliotecas necesarias: `requests` para realizar solicitudes HTTP y `BeautifulSoup` para analizar el contenido HTML.
+2. Define la URL del sitio web en una variable.
+3. Realiza una solicitud GET a la URL utilizando `requests.get()` y guarda la respuesta en la variable `page`.
+4. Utiliza `BeautifulSoup` para analizar el contenido de la página utilizando el analizador HTML y almacena el resultado en la variable `soup`.
+5. Encuentra el elemento con el identificador "ResultsContainer" en el contenido analizado de la página y guárdalo en la variable `results`.
+6. Encuentra todos los elementos de trabajo buscando los elementos "div" con la clase "card-content" dentro de `results` y almacena los resultados en la variable `job_elements`.
+7. Filtra los trabajos relacionados con Python buscando los elementos "h2" en los que el texto contenga la palabra "python" en minúsculas utilizando una expresión lambda como criterio. Los resultados se almacenan en la variable `python_jobs`.
+8. Crea una lista `python_jobs_elements` que contiene los elementos padres de los elementos `h2` encontrados en el paso anterior.
+9. Por cada elemento de trabajo en `python_jobs`:
+   - Encuentra el elemento de título ("h2") con la clase "tittle" y guárdalo en la variable `title_element`.
+   - Encuentra el elemento de la empresa ("h3") con la clase "company" y guárdalo en la variable `company_element`.
+   - Encuentra el elemento de ubicación ("p") con la clase "location" y guárdalo en la variable `location_element`.
+   - Encuentra el segundo enlace ("a") dentro del elemento de trabajo y obtén el valor del atributo "href", que representa la URL de solicitud, y guárdalo en la variable `link_url`.
+   - Imprime el texto de la empresa, la ubicación, el título y la URL de solicitud utilizando `print()`.
+   - Imprime una línea en blanco para separar cada trabajo.
+
+***El Script scrap12.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrap12.py](./Webscraping/scrap12.py)***
 
 ## Escáner de Puertos
 
