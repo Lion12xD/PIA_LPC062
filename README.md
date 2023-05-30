@@ -203,7 +203,7 @@ Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta
 15. `4) echo "Bye!"; exit 0;;`: Esta línea muestra un mensaje de despedida y finaliza la ejecución del script cuando el usuario selecciona la opción 4 del menú.
 16. `esac`: Esta línea marca el final de la estructura `case`.
 
-***El Script superscan.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [superscan.sh](./Scripting%20en%20Bash/superscan.sh)***
+***El Script superscan.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [superscan.sh](./Webscraping/superscan.sh)***
 
 ## Webscraping
 El webscraping es una técnica que permite extraer datos de manera automatizada desde sitios web. Consiste en desarrollar programas o scripts que recorren las páginas web, analizan su estructura y extraen la información relevante, como texto, imágenes o tablas. Esta práctica es ampliamente utilizada en diversas industrias para obtener datos en tiempo real, realizar análisis de mercado, monitorizar precios, recopilar información para investigación y muchas otras aplicaciones.
@@ -228,7 +228,7 @@ El script en Python realiza una solicitud GET a una página web y utiliza Beauti
 7. Imprimir citas y autores: Se utiliza un bucle "for" y la función "zip" para iterar sobre las listas de citas y autores al mismo tiempo. Se imprime cada par de cita y autor.
 8. Escribir en un archivo CSV: Se abre un archivo CSV llamado "zitate.csv" en modo de escritura. Se utiliza el objeto "csv_writer" para escribir los datos en el archivo CSV. Se utiliza la función "writerows" y la función "zip" para combinar las listas de citas y autores en pares y escribirlos en el archivo CSV.
 
-***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Scripting%20en%20Bash/scrap_quote.py)***
+***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Webscraping/scrap_quote.py)***
 
 ### scrap12.py
 
