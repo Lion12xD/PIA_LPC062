@@ -262,13 +262,19 @@ El escaneo de puertos es un proceso que se utiliza para identificar los puertos 
 
 ![imagen12](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/7d1b9d2a-1047-4fc7-ab62-718586790873)
 
+***El Script scan_portv1.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.py](./Escaner%20de%20Puertos/scan_portv1.py)***
+
 ### scan_portv2.py
 
 ![imagen13](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/e761e074-c0d3-4d3b-855c-75ab4762bc2a)
 
-### scan_portv2.py
+***El Script scan_portv2.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv2.py](./Escaner%20de%20Puertos/scan_portv2.py)***
+
+### scan_portv3.py
 
 ![imagen14](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/0ecd47b0-0778-4ec3-a3e3-34a0d3360f90)
+
+***El Script scan_portv3.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv3.py](./Escaner%20de%20Puertos/scan_portv3.py)***
 
 ## Envio de Correos
 
