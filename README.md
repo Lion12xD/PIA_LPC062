@@ -88,6 +88,7 @@ Este script determina la puerta de enlace predeterminada y el rango de subred co
 
 Esto seria todo en la seccion de Scriptin en Powershell!
 
+
 ## Scripting en Bash
 scripting en Bash se refiere a la creación y ejecución de secuencias de comandos o scripts utilizando el intérprete de comandos Bash en sistemas operativos Unix y Linux. Estos scripts permiten automatizar tareas y realizar acciones repetitivas de manera más eficiente. El lenguaje de scripting Bash ofrece una amplia gama de funciones y comandos que facilitan la manipulación de archivos, el procesamiento de texto, la gestión de procesos y muchas otras tareas comunes del sistema, tambien brinda la capacidad de escribir programas simples pero efectivos para mejorar la productividad y la automatización en entornos de línea de comandos.
 
@@ -108,6 +109,7 @@ Como funciona este script?
 
 ***El Script welcome.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/welcome.sh)***
 
+
 ### bro.sh
 Este script en bash tiene como objetivo solicitar al usuario que ingrese su nombre y luego muestra un mensaje de saludo personalizado.
 
@@ -120,6 +122,7 @@ Este script en bash tiene como objetivo solicitar al usuario que ingrese su nomb
 3. `echo “Hola, $nombre. Seamos amigos!”`: Esta línea utiliza el comando `echo` para mostrar un mensaje de saludo personalizado que incluye el nombre ingresado por el usuario. La variable `$nombre` se sustituirá por el valor que el usuario proporcionó durante la ejecución del script.
 
 ***El Script bro.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [bro.sh](./Scripting%20en%20Bash/bro.sh)***
+
 
 ### number.sh
 Este script en bash tiene como objetivo solicitar al usuario que ingrese tres números y luego muestra los números proporcionados.
@@ -137,6 +140,7 @@ Este script en bash tiene como objetivo solicitar al usuario que ingrese tres n�
 7. `echo “Numero 3 - $n3”`: Esta línea utiliza el comando `echo` para mostrar el valor de la variable `n3`, que es el tercer número proporcionado por el usuario.
 
 ***El Script number.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [number.sh](./Scripting%20en%20Bash/number.sh)***
+
 
 ### netdiscover.sh
 Este script en bash es un escáner de red básico que determina el segmento de red y verifica la conectividad de los hosts en ese segmento.
@@ -160,6 +164,7 @@ Este script en bash es un escáner de red básico que determina el segmento de r
 
 ***El Script netdiscover.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [netdiscover.sh](./Scripting%20en%20Bash/netdiscover.sh)***
 
+
 ### portscanv1.sh
 este script en bash realiza un escaneo de puertos en una dirección IP especificada utilizando un archivo especial en `/dev`. Verifica la disponibilidad de los puertos en la dirección IP y muestra un mensaje indicando si cada puerto está abierto o cerrado. Es un escáner de puertos básico que puede ayudar a identificar los servicios activos en una dirección IP específica.
 
@@ -178,6 +183,7 @@ este script en bash realiza un escaneo de puertos en una dirección IP especific
 9. `echo "$direccion_ip:$port is closed"`: Esta línea muestra un mensaje indicando que el puerto en la dirección IP está cerrado, si la conexión no se estableció correctamente.
 
 ***El Script portscanv1.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [portscanv1.sh](./Scripting%20en%20Bash/portscanv1.sh)***
+
 
 ### superscan.sh
 Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta diferentes scripts dependiendo de la opción seleccionada. Proporciona una forma interactiva para que el usuario elija entre diferentes acciones, como realizar un descubrimiento de red, escanear puertos, mostrar un mensaje de bienvenida o salir del programa.
@@ -205,6 +211,7 @@ Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta
 
 ***El Script superscan.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [superscan.sh](./Scripting%20en%20Bash/superscan.sh)***
 
+
 ## Webscraping
 El webscraping es una técnica que permite extraer datos de manera automatizada desde sitios web. Consiste en desarrollar programas o scripts que recorren las páginas web, analizan su estructura y extraen la información relevante, como texto, imágenes o tablas. Esta práctica es ampliamente utilizada en diversas industrias para obtener datos en tiempo real, realizar análisis de mercado, monitorizar precios, recopilar información para investigación y muchas otras aplicaciones.
 
@@ -229,6 +236,7 @@ El script en Python realiza una solicitud GET a una página web y utiliza Beauti
 8. Escribir en un archivo CSV: Se abre un archivo CSV llamado "zitate.csv" en modo de escritura. Se utiliza el objeto "csv_writer" para escribir los datos en el archivo CSV. Se utiliza la función "writerows" y la función "zip" para combinar las listas de citas y autores en pares y escribirlos en el archivo CSV.
 
 ***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Webscraping/scrape_quote.py)***
+
 
 ### scrap12.py
 este script realiza web scraping en un sitio web de empleos falsos, encuentra trabajos relacionados con Python y muestra información relevante de cada trabajo, como la empresa, la ubicación, el título y la URL de solicitud.
@@ -255,26 +263,54 @@ este script realiza web scraping en un sitio web de empleos falsos, encuentra tr
 
 ***El Script scrap12.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrap12.py](./Webscraping/scrap12.py)***
 
+
 ## Escáner de Puertos
 El escaneo de puertos es un proceso que se utiliza para identificar los puertos abiertos en un dispositivo o en una red. Cada dispositivo tiene múltiples puertos, que son puntos de conexión utilizados para la comunicación de datos. Al realizar un escaneo de puertos, se envían solicitudes a cada puerto para determinar si está abierto o cerrado. Esto proporciona información sobre los servicios o aplicaciones que están disponibles y escuchando en esos puertos. El escaneo de puertos es una técnica utilizada tanto por administradores de redes para detectar vulnerabilidades en la seguridad, como por piratas informáticos para buscar posibles puntos de acceso y explotarlos.
 
 ### scan_portv1.py
+El script realiza un escaneo de puertos en un rango especificado para determinar los puertos abiertos en un host dado.
 
 ![imagen12](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/7d1b9d2a-1047-4fc7-ab62-718586790873)
 
+
+1. Importación de librerías: Se importan las librerías necesarias, como `sys` y `socket`, que se utilizarán en el script.
+2. Modo de ejecución del script: Se establece el modo de ejecución del script, que requiere dos argumentos: el host y el rango de puertos. Estos argumentos se obtienen de `sys.argv` y se guardan en variables correspondientes.
+3. Definición de los valores de inicio y fin del rango de puertos: Los valores del rango de puertos se obtienen del segundo argumento y se asignan a las variables `start_port` y `end_port` después de convertirlos a enteros.
+4. Preparación del socket y la lista de puertos abiertos: Se obtiene la dirección IP del host utilizando `gethostbyname()`. Se inicializa una lista vacía llamada `opened_ports` para almacenar los puertos abiertos.
+5. Bucle de escaneo de puertos: Se inicia un bucle `for` para iterar a través de los puertos en el rango especificado. Se crea un objeto de socket y se establece un tiempo de espera. Luego, se utiliza `connect_ex()` para intentar una conexión al host y puerto específico. Si el resultado es 0, significa que el puerto está abierto y se agrega a la lista `opened_ports`.
+6. Impresión de los puertos abiertos: Se imprime la lista de puertos abiertos en la salida estándar mediante un bucle `for`.
+
+
 ***El Script scan_portv1.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.py](./Escaner%20de%20Puertos/scan_portv1.py)***
 
+
 ### scan_portv2.py
+El script utiliza sockets para escanear diferentes puertos en un rango de direcciones IP específico. Comprueba la conexión a los puertos definidos y muestra si la conexión fue exitosa o falló para cada dirección IP y puerto escaneado.
 
 ![imagen13](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/e761e074-c0d3-4d3b-855c-75ab4762bc2a)
 
+1. Importación de librerías: Se importa la librería `socket` para utilizar funciones relacionadas con la comunicación a través de sockets.
+2. Definición de la función de escaneo: Se define la función `scan` que utiliza sockets para probar la conexión a diferentes puertos. Se crea un nuevo objeto de socket, se establece un tiempo de espera y se intenta establecer una conexión con la dirección y puerto proporcionados. El resultado de la conexión se devuelve.
+3. Lista de puertos a escanear: Se define una lista de puertos que se desean escanear. En este caso, los puertos 21, 22, 25 y 80 están incluidos en la lista.
+4. Bucle de escaneo: Se realiza un bucle `for` para iterar a través de las direcciones IP en el rango 192.168.56.1-192.168.56.254. Se llama a la función `scan` para cada dirección IP y puerto en la lista. Si el resultado es 0, se imprime que la conexión fue exitosa, de lo contrario, se imprime que ha fallado.
+
 ***El Script scan_portv2.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv2.py](./Escaner%20de%20Puertos/scan_portv2.py)***
 
+
 ### scan_portv3.py
+El script utiliza hilos para realizar pruebas de conexión TCP a un rango de puertos específico en una dirección IP objetivo. Crea y ejecuta hilos para cada puerto, lo que permite realizar las pruebas de forma concurrente. Muestra los puertos abiertos durante el proceso de prueba.
 
 ![imagen14](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/0ecd47b0-0778-4ec3-a3e3-34a0d3360f90)
 
+1. Importación de librerías: Se importa la librería `sys` para acceder a los argumentos de línea de comandos, `threading` para utilizar hilos y `socket` para la comunicación a través de sockets.
+2. Definición de la función de prueba TCP: Se define la función `tcp_test` que realiza una prueba de conexión TCP a un puerto específico. Crea un nuevo socket, establece un tiempo de espera, intenta establecer una conexión con la dirección IP objetivo y el puerto dado. Si la conexión tiene éxito, se imprime que el puerto está abierto. Luego, el socket se cierra.
+3. Verificación de ejecución principal: Se verifica si el script se está ejecutando como el programa principal.
+4. Obtención de argumentos: Se obtienen los argumentos de línea de comandos. El primer argumento se guarda como `host` y el segundo argumento se divide en una lista de cadenas utilizando el carácter `-`. El inicio y fin del rango de puertos se guardan en las variables `start_port` y `end_port`.
+5. Obtención de la dirección IP objetivo: Se obtiene la dirección IP correspondiente al `host` utilizando la función `gethostbyname`.
+6. Creación y ejecución de hilos: Se crea una lista `hilos` para almacenar los hilos. Luego, se realiza un bucle `for` para iterar a través de los puertos en el rango especificado. Para cada puerto, se crea un hilo que llama a la función `tcp_test` pasando el puerto como argumento. El hilo se agrega a la lista y se inicia su ejecución.
+
 ***El Script scan_portv3.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv3.py](./Escaner%20de%20Puertos/scan_portv3.py)***
+
 
 ## Envio de Correos
 
