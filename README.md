@@ -144,7 +144,7 @@ Como funciona este script?
 
 ### portscanv1.sh
 
-![imagen8](
+![imagen8](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/a0a6f814-778d-41b2-921e-edd599477781)
 
 ### superscan.sh
 
