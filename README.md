@@ -84,7 +84,7 @@ Como funciona este script?
 10. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
 11. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde:" seguido de la dirección IP actual en color verde.
 
-**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](./Scripting%20en%20Powershell/scan_alivev2.ps1)
+**El Script scan_alivev2.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](./Scripting%20en%20Powershell/scan_alivev2.ps1)**
 
 Esto seria todo en la seccion de Scriptin en Powershell!
 
@@ -94,7 +94,19 @@ scripting en Bash se refiere a la creación y ejecución de secuencias de comand
 A continuacion se mostraran y explicaran de manera breve algunos scripts escritos en Bash para realizar diferentes acciones.
 
 ### welcome.sh
+Este script en bash tiene como objetivo mostrar un mensaje de bienvenida y proporcionar información sobre los usuarios conectados y sus procesos.
 
+![imagen3](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/8aa662d7-2da9-4ff0-b02f-468277c97fea)
+
+Como funciona este script?
+
+1. `#!/bin/bash`: Esta línea es llamada "shebang" y se utiliza para indicar que el script debe ser interpretado por el intérprete de bash.
+2. `echo “Hola ${LOGNAME}”`: Esta línea utiliza el comando `echo` para mostrar un saludo personalizado al usuario actual. La variable `${LOGNAME}` se sustituirá por el nombre de usuario actual.
+3. `echo “Hoy es ${date}”`: Esta línea muestra la fecha actual utilizando el comando `date`. La variable `${date}` no es reconocida en bash, debería ser `${DATE}` para mostrar la fecha correcta.
+4. `echo “Usuarios actuales conectados, y sus procesos:”`: Esta línea muestra un mensaje descriptivo.
+5. `w`: Esta línea utiliza el comando `w` para mostrar una lista de los usuarios actuales conectados y sus procesos.
+
+**El Script welcome.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/welcome.sh)**
 
 ## Webscraping
 
