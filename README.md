@@ -49,7 +49,24 @@ El siguiente script de PowerShell realiza las siguientes tareas:
 
 ### scan_alive1.ps
 Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
+
 ![imagen2](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/45f02320-cf2f-4568-9230-795a87377e31)
+
+Que hace este script?
+
+1. Obtiene la puerta de enlace predeterminada (gateway) utilizando el comando `Get-NetRoute -DestinationPrefix 0.0.0.0/0` y la guarda en la variable `$subred`.
+2. Calcula un rango de direcciones IP basado en el valor de `$subred` y lo guarda en la variable `$rango`.
+3. Muestra en la consola el valor de la variable `$rango`.
+4. Verifica si el rango de IP termina con un punto.
+5. Crea un array llamado `$rango_ip` que contiene los números del 1 al 254.
+6. Itera sobre cada número en el array `$rango_ip`.
+7. Combina el rango de IP y el número actual para formar una dirección IP completa.
+8. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
+9. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde: " seguido de la dirección IP actual en color verde.
+
+En resumen, este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
+
+**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](scan_alivev1.ps1)**
 
 ## Scripting en Bash
 
