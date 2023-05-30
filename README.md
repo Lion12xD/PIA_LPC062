@@ -34,16 +34,16 @@ Que hace este script?
 
 El siguiente script de PowerShell realiza las siguientes tareas:
 
-Obtiene la dirección de la puerta de enlace predeterminada (gateway) utilizando el comando Get-NetRoute -DestinationPrefix 0.0.0.0/0.
-Determina el rango de la subred basado en la dirección de la puerta de enlace.
-Muestra en la consola el valor del rango de la subred.
-Define una lista de puertos a escanear.
-Establece un tiempo de espera para la conexión a cada puerto.
-Solicita al usuario que ingrese una dirección IP.
-Itera sobre cada puerto en la lista de puertos a escanear.
-Crea un objeto de cliente TCP (TcpClient) y trata de conectarlo a la dirección IP y puerto correspondientes utilizando ConnectAsync.
-Espera un tiempo determinado ($waittime) para la conexión.
-Si la conexión se realizó correctamente, muestra en la consola el mensaje "Puerto abierto: " y el número del puerto en color verde.
+1. Obtiene la dirección de la puerta de enlace predeterminada (gateway) utilizando el comando Get-NetRoute -DestinationPrefix 0.0.0.0/0.
+2. Determina el rango de la subred basado en la dirección de la puerta de enlace.
+3. Muestra en la consola el valor del rango de la subred.
+4. Define una lista de puertos a escanear.
+5. Establece un tiempo de espera para la conexión a cada puerto.
+6. Solicita al usuario que ingrese una dirección IP.
+7. Itera sobre cada puerto en la lista de puertos a escanear.
+8. Crea un objeto de cliente TCP (TcpClient) y trata de conectarlo a la dirección IP y puerto correspondientes utilizando ConnectAsync.
+9. Espera un tiempo determinado ($waittime) para la conexión.
+10. Si la conexión se realizó correctamente, muestra en la consola el mensaje "Puerto abierto: " y el número del puerto en color verde.
 
 ## Scripting en Bash
 
