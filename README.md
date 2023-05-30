@@ -268,7 +268,7 @@ El escaneo de puertos es un proceso que se utiliza para identificar los puertos 
 
 ### scan_portv2.py
 
-![imagen14](
+![imagen14](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/0ecd47b0-0778-4ec3-a3e3-34a0d3360f90)
 
 ## Envio de Correos
 
