@@ -383,3 +383,6 @@ Este script en Python realiza el envío de un correo electrónico utilizando la 
 
 
 Esto seria todo en la seccion de Envio de Correos!
+
+Eso seria todo por este Proyecto y este Repositorio! Gracias por todo!
+*(En las fotos se eliminan algunos comentarios y datos para facilitar la compreension de los scripts al momento de ver las imagenes y leer la explicacion, en los archivos originales estan con todo y datos mios, asi como los comentarios)*
