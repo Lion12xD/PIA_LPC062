@@ -47,6 +47,9 @@ El siguiente script de PowerShell realiza las siguientes tareas:
 
 **El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1,ps1](scan_portv1.ps1)**
 
+### scan_alive1.ps
+Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
+
 ## Scripting en Bash
 
 ## Webscraping
