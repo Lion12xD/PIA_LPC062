@@ -138,6 +138,18 @@ Como funciona este script?
 
 ***El Script number.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/number.sh)***
 
+### netdiscover.sh
+
+![imagen7](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/a90cc957-7b1e-47c4-a50b-b3fb27579ea4)
+
+### portscanv1.sh
+
+![imagen8](
+
+### superscan.sh
+
+![imagen9](
+
 ## Webscraping
 
 ## Escáner de Puertos
