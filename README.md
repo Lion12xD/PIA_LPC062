@@ -18,7 +18,7 @@ Te invitamos a sumergirte en este repositorio y aprovechar al máximo las explic
 **Este repositorio cuenta con las siguientes secciones:**
 - [Scripting en PowerShell](#Scripting-en-PowerShell)
 - [Scripting en Bash](#Scripting-en-Bash)
-- [Webscraping](Webscraping)
+- [Webscraping](#Webscraping)
 - [Escáner de Puertos](#Escáner-de-Puertos)
 - [Envio de Correos](#Envio-de-Correos)
 
