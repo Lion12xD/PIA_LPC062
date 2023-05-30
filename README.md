@@ -44,7 +44,7 @@ Como funciona este script?
 9. Espera un tiempo determinado (`$waittime`) para la conexión.
 10. Si la conexión se realizó correctamente, muestra en la consola el mensaje "Puerto abierto: " y el número del puerto en color verde.
 
-**El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.ps1](./Scripting%20en%20Powershell/scan_portv1.ps1)**
+***El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.ps1](./Scripting%20en%20Powershell/scan_portv1.ps1)***
 
 
 ### scan_alive1.ps1
@@ -64,7 +64,7 @@ Como funciona este script?
 8. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
 9. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde: " seguido de la dirección IP actual en color verde.
 
-**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](./Scripting%20en%20Powershell/scan_alivev1.ps1)**
+***El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](./Scripting%20en%20Powershell/scan_alivev1.ps1)***
 
 
 ### scan_alivev2.ps1
@@ -84,7 +84,7 @@ Como funciona este script?
 10. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
 11. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde:" seguido de la dirección IP actual en color verde.
 
-**El Script scan_alivev2.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](./Scripting%20en%20Powershell/scan_alivev2.ps1)**
+***El Script scan_alivev2.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](./Scripting%20en%20Powershell/scan_alivev2.ps1)***
 
 Esto seria todo en la seccion de Scriptin en Powershell!
 
@@ -106,7 +106,19 @@ Como funciona este script?
 4. `echo “Usuarios actuales conectados, y sus procesos:”`: Esta línea muestra un mensaje descriptivo.
 5. `w`: Esta línea utiliza el comando `w` para mostrar una lista de los usuarios actuales conectados y sus procesos.
 
-**El Script welcome.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/welcome.sh)**
+***El Script welcome.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/welcome.sh)***
+
+### bro.sh
+Este script en bash tiene como objetivo solicitar al usuario que ingrese su nombre y luego muestra un mensaje de saludo personalizado.
+
+![imagen4](
+
+1. `#!/bin/bash`: Esta línea es llamada "shebang" y se utiliza para indicar que el script debe ser interpretado por el intérprete de bash.
+2. `read -p “Escribe tu nombre:“ nombre`: Esta línea utiliza el comando `read` para leer la entrada del usuario y asignarla a la variable `nombre`. El texto "Escribe tu nombre:" se muestra como un mensaje de solicitud antes de que el usuario ingrese su nombre.
+3. `echo “Hola, $nombre. Seamos amigos!”`: Esta línea utiliza el comando `echo` para mostrar un mensaje de saludo personalizado que incluye el nombre ingresado por el usuario. La variable `$nombre` se sustituirá por el valor que el usuario proporcionó durante la ejecución del script.
+
+
+### number.sh
 
 ## Webscraping
 
