@@ -26,6 +26,7 @@ Te invitamos a sumergirte en este repositorio y aprovechar al máximo las explic
 PowerShell scripting es una forma eficiente y poderosa de automatizar tareas en entornos de Windows. Con PowerShell, puedes escribir secuencias de comandos (scripts) que ejecutan una serie de instrucciones para realizar acciones repetitivas o complejas de manera rápida y sencilla. Estos scripts te permiten administrar sistemas, configurar servidores, interactuar con servicios web y mucho más. Con su lenguaje intuitivo y su amplia gama de funciones integradas, PowerShell te brinda el poder de la automatización en tus manos, facilitando la administración y el control de tus entornos Windows.
 
 A continuacion se mostraran y explicaran de manera breve algunos scripts escritos en PowerShell para realizar diferentes acciones.
+
 ### scan_portv1.ps1
 Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el rango de la subred, solicita una dirección IP y realiza un escaneo de puertos para encontrar aquellos que están abiertos.
 
@@ -267,6 +268,8 @@ este script realiza web scraping en un sitio web de empleos falsos, encuentra tr
 ## Escáner de Puertos
 El escaneo de puertos es un proceso que se utiliza para identificar los puertos abiertos en un dispositivo o en una red. Cada dispositivo tiene múltiples puertos, que son puntos de conexión utilizados para la comunicación de datos. Al realizar un escaneo de puertos, se envían solicitudes a cada puerto para determinar si está abierto o cerrado. Esto proporciona información sobre los servicios o aplicaciones que están disponibles y escuchando en esos puertos. El escaneo de puertos es una técnica utilizada tanto por administradores de redes para detectar vulnerabilidades en la seguridad, como por piratas informáticos para buscar posibles puntos de acceso y explotarlos.
 
+A continuacion se mostraran y explicaran de manera breve algunos scripts escritos en Python sobre Escaner de Puertos.
+
 ### scan_portv1.py
 El script realiza un escaneo de puertos en un rango especificado para determinar los puertos abiertos en un host dado.
 
@@ -313,4 +316,9 @@ El script utiliza hilos para realizar pruebas de conexión TCP a un rango de pue
 
 
 ## Envio de Correos
+El envío de correos (mediante scripts) se refiere a la capacidad de escribir programas o scripts en lenguajes de programación, como Python, que automatizan el proceso de envío de correos electrónicos. Estos scripts pueden incluir la configuración del servidor de correo saliente, la creación del mensaje de correo con su contenido, destinatarios, asunto y archivos adjuntos, y luego enviar el correo utilizando protocolos como SMTP (Simple Mail Transfer Protocol). Esto permite a los desarrolladores enviar correos electrónicos automáticamente desde sus aplicaciones o realizar tareas programadas, como enviar notificaciones por correo electrónico o informes automatizados, sin tener que hacerlo manualmente. El envío de correos mediante scripts simplifica y agiliza el proceso de comunicación por correo electrónico a través de la automatización.
+
+A continuacion se mostraran y explicaran de manera breve un  script escrito en Python sobre Envio de Correos.
+
+### enviocorreos.py
 
