@@ -30,7 +30,7 @@ Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el
 
 ![imagen1](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9)
 
-Que hace este script?
+Como funciona este script?
 
 1. Obtiene la dirección de la puerta de enlace predeterminada (gateway) utilizando el comando `Get-NetRoute -DestinationPrefix 0.0.0.0/0`.
 2. Determina el rango de la subred basado en la dirección de la puerta de enlace.
@@ -45,12 +45,13 @@ Que hace este script?
 
 **El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.ps1](./Scripting%20en%20Powershell/scan_portv1.ps1)**
 
+
 ### scan_alive1.ps1
 Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
 
 ![imagen2](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/45f02320-cf2f-4568-9230-795a87377e31)
 
-Que hace este script?
+Como funciona este script?
 
 1. Obtiene la puerta de enlace predeterminada (gateway) utilizando el comando `Get-NetRoute -DestinationPrefix 0.0.0.0/0` y la guarda en la variable `$subred`.
 2. Calcula un rango de direcciones IP basado en el valor de `$subred` y lo guarda en la variable `$rango`.
@@ -62,12 +63,27 @@ Que hace este script?
 8. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
 9. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde: " seguido de la dirección IP actual en color verde.
 
-En resumen, este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
-
 **El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](./Scripting%20en%20Powershell/scan_alivev1.ps1)**
 
-### scan_alivev2.ps1
 
+### scan_alivev2.ps1
+Este script determina la puerta de enlace predeterminada y el rango de subred correspondiente. Luego, escanea los hosts en esa subred y muestra aquellos que responden a las pruebas de conexión.
+
+Como funciona este script?
+
+1. Obtiene la puerta de enlace predeterminada (gateway) utilizando el comando `Get-NetRoute -DestinationPrefix 0.0.0.0/0` y guarda el valor en la variable `$subred`.
+2. Muestra en la consola el valor de la puerta de enlace obtenido en el paso anterior, utilizando la variable `$subred`.
+3. Calcula el rango de la subred a partir de la puerta de enlace, utilizando varias manipulaciones de cadenas de texto.
+4. Muestra en la consola el valor del rango de subred obtenido en el paso anterior.
+5. Crea un array llamado `$rango_ip` que contiene los números del 1 al 254.
+6. Muestra en la consola "-- Subred actual:" para indicar que se está escaneando la subred actual.
+7. Muestra en la consola el valor del rango de subred seguido de "0/24" en color rojo.
+8. Itera sobre cada número en el array `$rango_ip`.
+9. Combina el rango de subred y el número actual para formar una dirección IP completa.
+10. Realiza una prueba de conexión (`Test-Connection`) a la dirección IP actual con un recuento de 1 y en modo silencioso (`-Quiet`).
+11. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde:" seguido de la dirección IP actual en color verde.
+
+**El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/7b528356-871b-4982-99fc-715ceece1c42)
 
 ## Scripting en Bash
 
