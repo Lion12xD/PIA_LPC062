@@ -48,6 +48,7 @@ Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el
 ***El Script scan_portv1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.ps1](./Scripting%20en%20Powershell/scan_portv1.ps1)***
 
 
+
 ### scan_alive1.ps1
 Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
 
@@ -66,6 +67,7 @@ Este script obtiene la puerta de enlace predeterminada, calcula un rango de dire
 9. Si la respuesta de la prueba de conexión es verdadera, muestra en la consola "Host responde: " seguido de la dirección IP actual en color verde.
 
 ***El Script scan_alivev1.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev1,ps1](./Scripting%20en%20Powershell/scan_alivev1.ps1)***
+
 
 
 ### scan_alivev2.ps1
@@ -87,7 +89,9 @@ Este script determina la puerta de enlace predeterminada y el rango de subred co
 
 ***El Script scan_alivev2.ps1 original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_alivev2.ps2](./Scripting%20en%20Powershell/scan_alivev2.ps1)***
 
-Esto seria todo en la seccion de Scriptin en Powershell!
+
+
+Esto seria todo en la seccion de Scripting en Powershell!
 
 
 ## Scripting en Bash
@@ -111,6 +115,7 @@ Como funciona este script?
 ***El Script welcome.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/welcome.sh)***
 
 
+
 ### bro.sh
 Este script en bash tiene como objetivo solicitar al usuario que ingrese su nombre y luego muestra un mensaje de saludo personalizado.
 
@@ -123,6 +128,7 @@ Este script en bash tiene como objetivo solicitar al usuario que ingrese su nomb
 3. `echo “Hola, $nombre. Seamos amigos!”`: Esta línea utiliza el comando `echo` para mostrar un mensaje de saludo personalizado que incluye el nombre ingresado por el usuario. La variable `$nombre` se sustituirá por el valor que el usuario proporcionó durante la ejecución del script.
 
 ***El Script bro.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [bro.sh](./Scripting%20en%20Bash/bro.sh)***
+
 
 
 ### number.sh
@@ -141,6 +147,7 @@ Este script en bash tiene como objetivo solicitar al usuario que ingrese tres n�
 7. `echo “Numero 3 - $n3”`: Esta línea utiliza el comando `echo` para mostrar el valor de la variable `n3`, que es el tercer número proporcionado por el usuario.
 
 ***El Script number.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [number.sh](./Scripting%20en%20Bash/number.sh)***
+
 
 
 ### netdiscover.sh
@@ -166,6 +173,7 @@ Este script en bash es un escáner de red básico que determina el segmento de r
 ***El Script netdiscover.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [netdiscover.sh](./Scripting%20en%20Bash/netdiscover.sh)***
 
 
+
 ### portscanv1.sh
 este script en bash realiza un escaneo de puertos en una dirección IP especificada utilizando un archivo especial en `/dev`. Verifica la disponibilidad de los puertos en la dirección IP y muestra un mensaje indicando si cada puerto está abierto o cerrado. Es un escáner de puertos básico que puede ayudar a identificar los servicios activos en una dirección IP específica.
 
@@ -184,6 +192,7 @@ este script en bash realiza un escaneo de puertos en una dirección IP especific
 9. `echo "$direccion_ip:$port is closed"`: Esta línea muestra un mensaje indicando que el puerto en la dirección IP está cerrado, si la conexión no se estableció correctamente.
 
 ***El Script portscanv1.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [portscanv1.sh](./Scripting%20en%20Bash/portscanv1.sh)***
+
 
 
 ### superscan.sh
@@ -213,6 +222,9 @@ Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta
 ***El Script superscan.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [superscan.sh](./Scripting%20en%20Bash/superscan.sh)***
 
 
+
+Esto seria todo en la seccion de Scriptin en Bash!
+
 ## Webscraping
 El webscraping es una técnica que permite extraer datos de manera automatizada desde sitios web. Consiste en desarrollar programas o scripts que recorren las páginas web, analizan su estructura y extraen la información relevante, como texto, imágenes o tablas. Esta práctica es ampliamente utilizada en diversas industrias para obtener datos en tiempo real, realizar análisis de mercado, monitorizar precios, recopilar información para investigación y muchas otras aplicaciones.
 
@@ -237,6 +249,7 @@ El script en Python realiza una solicitud GET a una página web y utiliza Beauti
 8. Escribir en un archivo CSV: Se abre un archivo CSV llamado "zitate.csv" en modo de escritura. Se utiliza el objeto "csv_writer" para escribir los datos en el archivo CSV. Se utiliza la función "writerows" y la función "zip" para combinar las listas de citas y autores en pares y escribirlos en el archivo CSV.
 
 ***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Webscraping/scrape_quote.py)***
+
 
 
 ### scrap12.py
@@ -265,6 +278,9 @@ este script realiza web scraping en un sitio web de empleos falsos, encuentra tr
 ***El Script scrap12.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrap12.py](./Webscraping/scrap12.py)***
 
 
+
+Esto seria todo en la seccion de Webscraping!
+
 ## Escáner de Puertos
 El escaneo de puertos es un proceso que se utiliza para identificar los puertos abiertos en un dispositivo o en una red. Cada dispositivo tiene múltiples puertos, que son puntos de conexión utilizados para la comunicación de datos. Al realizar un escaneo de puertos, se envían solicitudes a cada puerto para determinar si está abierto o cerrado. Esto proporciona información sobre los servicios o aplicaciones que están disponibles y escuchando en esos puertos. El escaneo de puertos es una técnica utilizada tanto por administradores de redes para detectar vulnerabilidades en la seguridad, como por piratas informáticos para buscar posibles puntos de acceso y explotarlos.
 
@@ -283,8 +299,8 @@ El script realiza un escaneo de puertos en un rango especificado para determinar
 5. Bucle de escaneo de puertos: Se inicia un bucle `for` para iterar a través de los puertos en el rango especificado. Se crea un objeto de socket y se establece un tiempo de espera. Luego, se utiliza `connect_ex()` para intentar una conexión al host y puerto específico. Si el resultado es 0, significa que el puerto está abierto y se agrega a la lista `opened_ports`.
 6. Impresión de los puertos abiertos: Se imprime la lista de puertos abiertos en la salida estándar mediante un bucle `for`.
 
-
 ***El Script scan_portv1.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv1.py](./Escaner%20de%20Puertos/scan_portv1.py)***
+
 
 
 ### scan_portv2.py
@@ -298,6 +314,7 @@ El script utiliza sockets para escanear diferentes puertos en un rango de direcc
 4. Bucle de escaneo: Se realiza un bucle `for` para iterar a través de las direcciones IP en el rango 192.168.56.1-192.168.56.254. Se llama a la función `scan` para cada dirección IP y puerto en la lista. Si el resultado es 0, se imprime que la conexión fue exitosa, de lo contrario, se imprime que ha fallado.
 
 ***El Script scan_portv2.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv2.py](./Escaner%20de%20Puertos/scan_portv2.py)***
+
 
 
 ### scan_portv3.py
@@ -314,6 +331,9 @@ El script utiliza hilos para realizar pruebas de conexión TCP a un rango de pue
 
 ***El Script scan_portv3.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scan_portv3.py](./Escaner%20de%20Puertos/scan_portv3.py)***
 
+
+
+Esto seria todo en la seccion de Escaneo de Puertos!
 
 ## Envio de Correos
 El envío de correos (mediante scripts) se refiere a la capacidad de escribir programas o scripts en lenguajes de programación, como Python, que automatizan el proceso de envío de correos electrónicos. Estos scripts pueden incluir la configuración del servidor de correo saliente, la creación del mensaje de correo con su contenido, destinatarios, asunto y archivos adjuntos, y luego enviar el correo utilizando protocolos como SMTP (Simple Mail Transfer Protocol). Esto permite a los desarrolladores enviar correos electrónicos automáticamente desde sus aplicaciones o realizar tareas programadas, como enviar notificaciones por correo electrónico o informes automatizados, sin tener que hacerlo manualmente. El envío de correos mediante scripts simplifica y agiliza el proceso de comunicación por correo electrónico a través de la automatización.
@@ -356,5 +376,8 @@ Este script en Python realiza el envío de un correo electrónico utilizando la 
    - Se imprime un mensaje indicando que el correo ha sido enviado con éxito.
    - Se cierra la conexión con el servidor SMTP utilizando quit().
 
-
 ***El Script enviocorreo.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [enviocorreo.py](./Envio%20de%20Correos/enviocorreo.py)***
+
+
+
+Esto seria todo en la seccion de Envio de Correos!
