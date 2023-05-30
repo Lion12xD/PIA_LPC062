@@ -113,12 +113,30 @@ Este script en bash tiene como objetivo solicitar al usuario que ingrese su nomb
 
 ![imagen5](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/e76c6e7a-bdc0-416e-a957-4a998a66a0a5)
 
+Como funciona este script?
+
 1. `#!/bin/bash`: Esta línea es llamada "shebang" y se utiliza para indicar que el script debe ser interpretado por el intérprete de bash.
 2. `read -p “Escribe tu nombre:“ nombre`: Esta línea utiliza el comando `read` para leer la entrada del usuario y asignarla a la variable `nombre`. El texto "Escribe tu nombre:" se muestra como un mensaje de solicitud antes de que el usuario ingrese su nombre.
 3. `echo “Hola, $nombre. Seamos amigos!”`: Esta línea utiliza el comando `echo` para mostrar un mensaje de saludo personalizado que incluye el nombre ingresado por el usuario. La variable `$nombre` se sustituirá por el valor que el usuario proporcionó durante la ejecución del script.
 
+***El Script bro.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/bro.sh)***
 
 ### number.sh
+Este script en bash tiene como objetivo solicitar al usuario que ingrese tres números y luego muestra los números proporcionados.
+
+
+
+Como funciona este script?
+
+1. `#!/bin/bash`: Esta línea es llamada "shebang" y se utiliza para indicar que el script debe ser interpretado por el intérprete de bash.
+2. `# Script number.sh`: Esta línea es un comentario que proporciona información sobre el nombre y el propósito del script.
+3. `read -p “Proporciona un numero para variable 1:“ n1`: Estas líneas utilizan el comando `read` para leer la entrada del usuario y asignarla a las variables `n1`, `n2` y `n3`. Los mensajes entre comillas después de `-p` se muestran como mensajes de solicitud antes de que el usuario ingrese cada número.
+4. `# Despliega los 3 numeros proporcionados por el usuario`: Esta línea es un comentario que describe la siguiente sección del script.
+5. `echo “Numero 1 - $n1”`: Esta línea utiliza el comando `echo` para mostrar el valor de la variable `n1`, que es el primer número proporcionado por el usuario.
+6. `echo “Numero 2 - $n2”`: Esta línea utiliza el comando `echo` para mostrar el valor de la variable `n2`, que es el segundo número proporcionado por el usuario.
+7. `echo “Numero 3 - $n3”`: Esta línea utiliza el comando `echo` para mostrar el valor de la variable `n3`, que es el tercer número proporcionado por el usuario.
+
+***El Script number.sh original se enccuentra en este repositorio, para verlo puedes dar click aqui: [welcome.sh](./Scripting%20en%20Bash/number.sh)***
 
 ## Webscraping
 
