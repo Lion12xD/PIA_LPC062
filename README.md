@@ -225,7 +225,7 @@ Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta
 
 
 
-Esto seria todo en la seccion de Scriptin en Bash!
+Esto seria todo en la seccion de Scripting en Bash!
 
 ## Webscraping
 El webscraping es una técnica que permite extraer datos de manera automatizada desde sitios web. Consiste en desarrollar programas o scripts que recorren las páginas web, analizan su estructura y extraen la información relevante, como texto, imágenes o tablas. Esta práctica es ampliamente utilizada en diversas industrias para obtener datos en tiempo real, realizar análisis de mercado, monitorizar precios, recopilar información para investigación y muchas otras aplicaciones.
