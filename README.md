@@ -31,6 +31,7 @@ Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el
 ![imagen1](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9)
 
 Que hace este script?
+
 El siguiente script de PowerShell realiza las siguientes tareas:
 
 Obtiene la dirección de la puerta de enlace predeterminada (gateway) utilizando el comando Get-NetRoute -DestinationPrefix 0.0.0.0/0.
