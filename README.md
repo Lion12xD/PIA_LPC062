@@ -73,6 +73,8 @@ Este script obtiene la puerta de enlace predeterminada, calcula un rango de dire
 ### scan_alivev2.ps1
 Este script determina la puerta de enlace predeterminada y el rango de subred correspondiente. Luego, escanea los hosts en esa subred y muestra aquellos que responden a las pruebas de conexión.
 
+![imagen3](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/6841e342-99bc-432d-aea7-f5b8decc04fe)
+
 ¿Cómo funciona este script?
 
 1. Obtiene la puerta de enlace predeterminada (gateway) utilizando el comando `Get-NetRoute -DestinationPrefix 0.0.0.0/0` y guarda el valor en la variable `$subred`.
