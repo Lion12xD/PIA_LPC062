@@ -124,7 +124,7 @@ Como funciona este script?
 ### number.sh
 Este script en bash tiene como objetivo solicitar al usuario que ingrese tres números y luego muestra los números proporcionados.
 
-
+![imagen6](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/ed2cc5c3-9201-421f-94b8-3cd36533b0fc)
 
 Como funciona este script?
 
