@@ -1,3 +1,4 @@
+#Leonardo Hasiel Alvarado Zamora -1949295
 $subred = (Get-NetRoute -DestinationPrefix 0.0.0.0/0).NextHop
 Write-Host "Tu gateway: $subred"
 
