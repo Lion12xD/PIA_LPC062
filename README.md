@@ -28,7 +28,7 @@ A continuacion se mostraran y explicaran de manera breve algunos scripts escrito
 ### scan_portv1.ps
 Este script de PowerShell obtiene la puerta de enlace predeterminada, calcula el rango de la subred, solicita una dirección IP y realiza un escaneo de puertos para encontrar aquellos que están abiertos.
 
-![imagen1]([https://gyazo.com/1b27345b1d004af8cf465241146435e6](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9))
+![imagen1](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/fa376550-2e4d-49c0-b11d-283e7a5f72b9)
 
 
 ## Scripting en Bash
