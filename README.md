@@ -15,11 +15,11 @@ Te invitamos a sumergirte en este repositorio y aprovechar al máximo las explic
 ¡Disfruta explorando los scripts y aprendiendo más sobre el fascinante mundo de la programación y la ciberseguridad!
 
 **Este repositorio cuenta con las siguientes secciones:**
-- [Scripting en PowerShell](Scripting en PowerShell)
-- [Scripting en Bash](Scripting en Bash)
+- [Scripting en PowerShell](#Scripting-en-PowerShell)
+- [Scripting en Bash](#Scripting-en-Bash)
 - [Webscraping](Webscraping)
-- [Escáner de Puertos](Escáner de Puertos)
-- [Envio de Correos](Envio de Correos)
+- [Escáner de Puertos](#Escáner-de-Puertos)
+- [Envio de Correos](#Envio-de-Correos)
 
 ## Scripting en PowerShell
 PowerShell scripting es una forma eficiente y poderosa de automatizar tareas en entornos de Windows. Con PowerShell, puedes escribir secuencias de comandos (scripts) que ejecutan una serie de instrucciones para realizar acciones repetitivas o complejas de manera rápida y sencilla. Estos scripts te permiten administrar sistemas, configurar servidores, interactuar con servicios web y mucho más. Con su lenguaje intuitivo y su amplia gama de funciones integradas, PowerShell te brinda el poder de la automatización en tus manos, facilitando la administración y el control de tus entornos Windows.
