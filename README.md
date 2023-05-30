@@ -89,6 +89,9 @@ Como funciona este script?
 Esto seria todo en la seccion de Scriptin en Powershell!
 
 ## Scripting en Bash
+scripting en Bash se refiere a la creación y ejecución de secuencias de comandos o scripts utilizando el intérprete de comandos Bash en sistemas operativos Unix y Linux. Estos scripts permiten automatizar tareas y realizar acciones repetitivas de manera más eficiente. El lenguaje de scripting Bash ofrece una amplia gama de funciones y comandos que facilitan la manipulación de archivos, el procesamiento de texto, la gestión de procesos y muchas otras tareas comunes del sistema, tambien brinda la capacidad de escribir programas simples pero efectivos para mejorar la productividad y la automatización en entornos de línea de comandos.
+
+A continuacion se mostraran y explicaran de manera breve algunos scripts escritos en Bash para realizar diferentes acciones.
 
 ## Webscraping
 
