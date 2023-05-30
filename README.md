@@ -258,6 +258,12 @@ este script realiza web scraping en un sitio web de empleos falsos, encuentra tr
 ## Escáner de Puertos
 El escaneo de puertos es un proceso que se utiliza para identificar los puertos abiertos en un dispositivo o en una red. Cada dispositivo tiene múltiples puertos, que son puntos de conexión utilizados para la comunicación de datos. Al realizar un escaneo de puertos, se envían solicitudes a cada puerto para determinar si está abierto o cerrado. Esto proporciona información sobre los servicios o aplicaciones que están disponibles y escuchando en esos puertos. El escaneo de puertos es una técnica utilizada tanto por administradores de redes para detectar vulnerabilidades en la seguridad, como por piratas informáticos para buscar posibles puntos de acceso y explotarlos.
 
+### scan_portv1.py
+
+### scan_portv2.py
+
+### scan_portv2.py
+
 
 ## Envio de Correos
 
