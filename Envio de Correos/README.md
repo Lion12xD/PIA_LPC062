@@ -39,7 +39,7 @@ Este script en Python realiza el envío de un correo electrónico utilizando la 
    - Se imprime un mensaje indicando que el correo ha sido enviado con éxito.
    - Se cierra la conexión con el servidor SMTP utilizando quit().
 
-***El Script enviocorreo.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [enviocorreo.py](./Envio%20de%20Correos/enviocorreo.py)***
+***El Script enviocorreo.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [enviocorreo.py](./enviocorreo.py)***
 
 
 
