@@ -320,5 +320,5 @@ El envío de correos (mediante scripts) se refiere a la capacidad de escribir pr
 
 A continuacion se mostraran y explicaran de manera breve un  script escrito en Python sobre Envio de Correos.
 
-### enviocorreos.py
+### enviocorreo.py
 
