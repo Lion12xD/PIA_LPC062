@@ -49,6 +49,7 @@ El siguiente script de PowerShell realiza las siguientes tareas:
 
 ### scan_alive1.ps
 Este script obtiene la puerta de enlace predeterminada, calcula un rango de direcciones IP y realiza pruebas de conexión para determinar qué hosts están respondiendo dentro de ese rango de IP.
+![imagen2](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/45f02320-cf2f-4568-9230-795a87377e31)
 
 ## Scripting en Bash
 
