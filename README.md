@@ -205,6 +205,13 @@ Este script en bash muestra un menú con opciones numeradas al usuario y ejecuta
 
 ## Webscraping
 
+### scrape_quote.py
+
+![imagen10](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/5aaa3102-08d8-4d59-8224-fd88e2511acc)
+
+### scrap12.py
+
+
 ## Escáner de Puertos
 
 ## Envio de Correos
