@@ -228,6 +228,8 @@ El script en Python realiza una solicitud GET a una página web y utiliza Beauti
 7. Imprimir citas y autores: Se utiliza un bucle "for" y la función "zip" para iterar sobre las listas de citas y autores al mismo tiempo. Se imprime cada par de cita y autor.
 8. Escribir en un archivo CSV: Se abre un archivo CSV llamado "zitate.csv" en modo de escritura. Se utiliza el objeto "csv_writer" para escribir los datos en el archivo CSV. Se utiliza la función "writerows" y la función "zip" para combinar las listas de citas y autores en pares y escribirlos en el archivo CSV.
 
+***El Script scrape_quote.py original se enccuentra en este repositorio, para verlo puedes dar click aqui: [scrape_quote.py](./Scripting%20en%20Bash/scrap_quote.py)***
+
 ### scrap12.py
 
 ![imagen11](https://github.com/Lion12xD/PIA_LPC062/assets/103289468/c7be0144-5736-46f9-9c27-402c8729d69d)
