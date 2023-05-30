@@ -260,10 +260,15 @@ El escaneo de puertos es un proceso que se utiliza para identificar los puertos 
 
 ### scan_portv1.py
 
-### scan_portv2.py
+![imagen12](
 
 ### scan_portv2.py
 
+![imagen13](
+
+### scan_portv2.py
+
+![imagen14](
 
 ## Envio de Correos
 
